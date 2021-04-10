@@ -65,14 +65,14 @@
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.arrow_down{
+.arrow_down{                   //居中
 	position: bottom;
 	left: 50%;
 	bottom: 100px;
 	color: white;
 }
-.arrow_down span{
-	position: bottom;
+.arrow_down span{              //箭头形状设置
+	position: absolute;
 	width: 20px;
 	height: 20px;
 	top: 10px;
@@ -91,7 +91,7 @@
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
-@-webkit-keyframes down{
+@-webkit-keyframes down{   //动画设置
 	0%{
 		opacity: 0;
 		-webkit-transform: translate(0, 0) -webkit-rotate(45deg);
