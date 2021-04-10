@@ -1,13 +1,13 @@
 # Site settings
-title:"Yifans Page"
-email:"yjiang45@u.rochester.edu"
-description:"Yifans Page"
+title:Yifans Box
+email:yjiang45@u.rochester.edu
+description:Yifans Box
 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://o0bb0o.github.io/" # the base hostname & protocol for your site
+url: https://o0bb0o.github.io/ # the base hostname & protocol for your site
 
 twitter_username:
-github_username:"o0BB0o"
+github_username:o0BB0o
 
 # Build settings
 markdown: kramdown
