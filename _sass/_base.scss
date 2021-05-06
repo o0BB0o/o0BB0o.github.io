@@ -280,9 +280,7 @@ header {
 }
 
 .call-to-action {
-    h2 {
-        margin: 0 auto 20px;
-    }
+    @include sans-serif-font;
 }
 
 // Bootstrap Overrides
